@@ -1,4 +1,4 @@
-(defproject obb-rules "1.0.0-SNAPSHOT"
+(defproject obb-ranking "1.0.0-SNAPSHOT"
   :description "Orion's Belt Ranking System"
   :url "https://github.com/orionsbelt-battlegrounds/obb-ranking"
 
