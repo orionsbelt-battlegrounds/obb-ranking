@@ -12,8 +12,8 @@ There's a REST/JSON interface for this logic at [obb-rules-api](https://github.c
 ### Usage
 
 ```clojure
-obb-ranking.core/calculate {:rating 1500 :rd 50 :volatility 0.06}
-                           {:rating 1200 :rd 350 :volatility 0.06})
+(obb-ranking.core/calculate {:rating 1500 :rd 50 :volatility 0.06}
+                            {:rating 1200 :rd 350 :volatility 0.06})
 ;=> [{:rating 1500.20, :rd 51.05, :volatility 0.05}
 ;    {:rating 497.67, :rd 347.83, :volatility 0.05}]
 ```
